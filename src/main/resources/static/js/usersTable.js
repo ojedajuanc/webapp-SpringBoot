@@ -6,7 +6,7 @@ $(document).ready(function() {
 });
 
 async function findUser() {
-  const response = await fetch('user/1234', {
+  const response = await fetch('users/123', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
